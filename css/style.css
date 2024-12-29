@@ -100,7 +100,7 @@ header nav ul li a:hover{
 /* sub-menu */
 header nav ul li .main-menu .sub-menu{
     width: 12%;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 0px;
     background-color: #fff;
     position: absolute;
@@ -129,7 +129,7 @@ header nav ul li .sub-menu a:hover{
 header nav ul li .main-menu .sub-menu .main-sub-menu .sub-menu2{
     width: 60%;
     margin-top: -45px;
-    margin-left: -109%;
+    margin-left: -100%;
     background-color: #fff;
     position: absolute;
     padding: 10px 50px;
