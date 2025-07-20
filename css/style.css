@@ -83,6 +83,7 @@ header nav ul li a{
     font-size: 1rem;
     transition: all 1s;
     font-weight: 700;
+    padding-bottom: 10px;
 }
 header nav ul #home{
     border-bottom: 2px solid rgb(201, 12, 12);
@@ -97,62 +98,8 @@ header nav ul .border-hover:hover::after{
 header nav ul li a:hover{
     color: #000;
 }
-/* sub-menu */
-header nav ul li .main-menu .sub-menu{
-    width: 12%;
-    margin-top: 3px;
-    margin-left: 0px;
-    background-color: #fff;
-    position: absolute;
-    padding: 10px 50px;
-    transition: all 0.5s;
-    z-index: 15;
-    box-shadow: 0 0 10px 0 gray;
-}
-header nav ul li .main-menu ul{
-    display: none;
-}
-header nav ul li:hover .main-menu ul{
-    display: block;
-}
-header nav ul li .main-menu .sub-menu li{
-    line-height: 45px;
-    margin-left: -20px;
-}
 
-header nav ul li .sub-menu a:hover{
-    color: rgb(201, 12, 12);    
-}
-/* sub-menu */
 
-/* sub-menu2 */
-header nav ul li .main-menu .sub-menu .main-sub-menu .sub-menu2{
-    width: 60%;
-    margin-top: -45px;
-    margin-left: -100%;
-    background-color: #fff;
-    position: absolute;
-    padding: 10px 50px;
-    transition: all 0.5s;
-    z-index: 20;
-    box-shadow: 0 0 10px 0 gray;
-}
-header nav ul li .main-menu li .main-sub-menu ul{
-    display: none;
-}
-header nav ul li .main-menu li:hover .main-sub-menu ul{
-    display: block;
-}
-
-header nav ul li .sub-menu li{
-    display: block;
-    line-height: 45px;
-    margin-left: -20px;
-}
-header nav ul li :hover ~.sub-menu{
-    display: block;
-}
-/* sub-menu2 */
 /* Navigation */
 header nav button{
     float: right;
@@ -776,9 +723,6 @@ header nav .fa-close:hover{
 .chefs .chefs-center .three-part .two{
     margin-right: 50px;
 }
-.chefs .chefs-center .three-part .part-1 .image{
-    overflow: hidden;
-}
 .chefs .chefs-center .three-part .one .image{
     width: 100%;
     background-image: url("../images/chefs/chefs-1.jpg");
@@ -796,7 +740,6 @@ header nav .fa-close:hover{
     background-size: cover;
     border-radius: 5px;
     padding-bottom: 230px;
-    position: relative;
 }
 .chefs .chefs-center .three-part .three .image{
     width: 100%;
@@ -823,10 +766,8 @@ header nav .fa-close:hover{
     visibility: hidden;
     transition: all 0.8s;
 }
-.chefs .chefs-center .three-part .part-1:hover .image{
-}
 .chefs .chefs-center .three-part .part-1:hover .icon{
-    left: 10px;
+    left: 0;
     visibility: visible;
 }
 .chefs .chefs-center .three-part .part-1 .icon i{
@@ -955,7 +896,6 @@ header nav .fa-close:hover{
 .gallery .gallery-center{
     width: 85%;
     margin: 0 auto;
-    transition: all 0.4s;
 }
 .gallery .gallery-center img{
     width: 20%;

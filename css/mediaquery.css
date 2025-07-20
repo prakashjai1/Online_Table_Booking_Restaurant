@@ -543,20 +543,6 @@
 }
 /* Device responsive 768px less  */
 
-/* Device responsive 690px less  */
-@media only screen and (max-width:690px){
-    .chefs .chefs-center .three-part .part-1{
-        width: 100%;
-    }
-    .contact .contact-center .four-section .one,
-    .contact .contact-center .four-section .two, 
-    .contact .contact-center .four-section .three, 
-    .contact .contact-center .four-section .four{
-        width: 100%;
-    }
-}
-/* Device responsive 690px less  */
-
 /* Device responsive 425px less  */
 @media only screen and (max-width:425px){
     
