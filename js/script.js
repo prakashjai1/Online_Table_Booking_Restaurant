@@ -88,3 +88,18 @@ jQuery(function(){
 function booktable(){
     alert("Thank you for booking a table!");
 }
+
+
+
+ 
+function sendEmail(){
+    const templateParams = {
+        name: document.querySelector(".name"),
+        email: document.querySelector(".email"),
+        subject: document.querySelector(".subject"),
+        message: document.querySelector(".message"),
+    }
+    emailjs
+    .send("service_lbb8vbr","template_z10c6tn", templateParams)
+    .then(()=> alert("Email sent!").catch(()=> alert("Email not sent!")))
+}
